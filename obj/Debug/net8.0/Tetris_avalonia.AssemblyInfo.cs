@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tetris_avalonia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6273f5299dcaa5ecfc317550e26f050b92536091")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tetris_avalonia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tetris_avalonia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

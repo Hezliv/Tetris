@@ -73,3 +73,4 @@ D:\Projects\Tetris_avalonia\obj\Debug\net8.0\refint\Tetris_avalonia.dll
 D:\Projects\Tetris_avalonia\obj\Debug\net8.0\Tetris_avalonia.pdb
 D:\Projects\Tetris_avalonia\obj\Debug\net8.0\Tetris_avalonia.genruntimeconfig.cache
 D:\Projects\Tetris_avalonia\obj\Debug\net8.0\ref\Tetris_avalonia.dll
+D:\Projects\Tetris_avalonia\obj\Debug\net8.0\Tetris_avalonia.sourcelink.json
