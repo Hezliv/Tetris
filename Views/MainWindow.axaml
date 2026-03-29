@@ -3,21 +3,65 @@
         xmlns:vm="using:Tetris_avalonia.ViewModels"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="600"
         x:Class="Tetris_avalonia.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
-        Title="Tetris_avalonia">
-
-    <Design.DataContext>
-        <!-- This only sets the DataContext for the previewer in an IDE,
-             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        Title="TETRIS"
+        WindowState="Maximized"
+        WindowStartupLocation="CenterScreen"
+        Background="#050505"
+        FontFamily="Press Start 2P"> <Design.DataContext>
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 
-    <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <Grid>
+        <Image Source="/Assets/lobby_background.png" Stretch="UniformToFill" IsVisible="{Binding !IsGameVisible}"/>
+        <Image Source="/Assets/main_background.png" Stretch="UniformToFill" Opacity="0.4" IsVisible="{Binding IsGameVisible}"/>
+        <StackPanel IsVisible="{Binding IsLobbyVisible}" VerticalAlignment="Center" Spacing="20">
+            <Image Source="/Assets/game_name.png" Width="700"/>
+            <Button Content="--play--" 
+                    Command="{Binding ShowDifficultyCommand}"
+                    HorizontalAlignment="Center" FontSize="20" Width="200" Height="50"/>
+        </StackPanel>
 
+        <StackPanel IsVisible="{Binding IsDifficultyVisible}" VerticalAlignment="Center" Spacing="15">
+            <TextBlock Text="CHOOSE LEVEL" HorizontalAlignment="Center" FontSize="26" Foreground="White"/>
+            <StackPanel Margin="0,10,60,0" Spacing="16">
+            <Button Content="- EASY" FontSize="20" Command="{Binding StartGameCommand}" CommandParameter="Easy" HorizontalAlignment="Center" Width="300"/>
+            <Button Content="- NORMAL" FontSize="20" Command="{Binding StartGameCommand}" CommandParameter="Normal" HorizontalAlignment="Center" Width="300"/>
+            <Button Content="- HARD" FontSize="20" Command="{Binding StartGameCommand}" CommandParameter="Hard" HorizontalAlignment="Center" Width="300"/>
+            <Button Content="- INFINITE" FontSize="20" Command="{Binding StartGameCommand}" CommandParameter="Infinite" HorizontalAlignment="Center" Width="300"/>
+       
+            </StackPanel>
+        </StackPanel>
+
+        <Grid IsVisible="{Binding IsGameVisible}">
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="100">
+        
+            <StackPanel Spacing="10">
+                <TextBlock Text="SCORE" 
+                           Foreground="White" 
+                           FontSize="26"
+                           HorizontalAlignment="Center"/>
+                <TextBlock Text="{Binding Score}" 
+                           Foreground="White" 
+                           FontSize="40" 
+                           HorizontalAlignment="Center"/>
+            </StackPanel>
+
+            <Border BorderBrush="White" 
+                    BorderThickness="2 0 2 3" 
+                    HorizontalAlignment="Center">
+                <Canvas Name="GameCanvas" Width="400" Height="500"/>
+            </Border>
+        
+        </StackPanel>
+        </Grid>
+    </Grid>
 </Window>
+
+
 <!-- 
 Assets -> this for photos,textures, sounds etc. static things
 Models -> this is for logic. Logic doesn't know about UI(user interface).

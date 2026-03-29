@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Tetris_avalonia.Models
 {
-    internal class GameGrid
+    public class GameGrid
     {
         private readonly int[,] grid;
 
