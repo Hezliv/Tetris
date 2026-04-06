@@ -40,5 +40,10 @@ namespace Tetris_avalonia.Models
             NextBlock = GetRandomBlock();
             return block;
         }
+
+        public int GetSize()
+        {
+            return blocks.Length;
+        }
     }
 }

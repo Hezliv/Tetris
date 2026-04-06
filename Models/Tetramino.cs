@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Avalonia.Media;
+using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,47 +21,55 @@ namespace Tetris_avalonia.Models
     }
     public abstract class Tetramino
     {
-        protected abstract Position[][] Tiles { get; }
-        protected abstract Position StartOffset { get; }
+        public abstract Position[][] Tiles { get; }
+        protected Position StartOffset { get; }
         public abstract int ID { get; }
 
-        private int rotation_state;
-       
-        protected Position offset;
+        private int _rotationState;
+        private Position _offset;
+        public Position Offset { private set; get; }
+
         public Tetramino()
         {
-            offset = new Position(StartOffset.Row, StartOffset.Column);
+            _offset = new Position(StartOffset.Row, StartOffset.Column);
+
         }
 
-        public void RotateCW() => rotation_state = (rotation_state + 1) % Tiles.Length;
+        public void RotateCW() => _rotationState = (_rotationState + 1) % Tiles.Length;
         
         public void RotateCCW()
         {
-            if (rotation_state == 0)
+            if (_rotationState == 0)
             {
-                rotation_state = Tiles.Length - 1;
+                _rotationState = Tiles.Length - 1;
             }
             else
-                rotation_state--;
+                _rotationState--;
         }
 
         public void Move(int row, int column)
         {
-            offset.Row += row;
-            offset.Column += column;
+            _offset.Row += row;
+            _offset.Column += column;
         }
 
         public void Reset()
         {
-            rotation_state = 0;
-            offset.Row = StartOffset.Row;
-            offset.Column = StartOffset.Column;
+            _rotationState = 0;
+            _offset.Row = StartOffset.Row;
+            _offset.Column = StartOffset.Column;
+        }
+
+        public void ResetPosition(int row, int column)
+        {
+            _offset.Row = row;
+            _offset.Column = column; 
         }
         
         public IEnumerable<Position> GetPositions()
         {
-            foreach(Position p in Tiles[rotation_state]) 
-                yield return new Position(p.Row + offset.Row, p.Column + offset.Column);  
+            foreach(Position p in Tiles[_rotationState]) 
+                yield return new Position(p.Row + _offset.Row, p.Column + _offset.Column);  
         }
     }
 }

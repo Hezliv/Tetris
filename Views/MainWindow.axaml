@@ -1,3 +1,4 @@
+
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:vm="using:Tetris_avalonia.ViewModels"
@@ -12,10 +13,12 @@
         WindowStartupLocation="CenterScreen"
         Background="#050505"
         FontFamily="Press Start 2P"> <Design.DataContext>
-        <vm:MainWindowViewModel/>
+        <vm:MainWindowViewModel/>  
     </Design.DataContext>
-
+   
+   
     <Grid>
+       
         <Image Source="/Assets/lobby_background.png" Stretch="UniformToFill" IsVisible="{Binding !IsGameVisible}"/>
         <Image Source="/Assets/main_background.png" Stretch="UniformToFill" Opacity="0.4" IsVisible="{Binding IsGameVisible}"/>
         <StackPanel IsVisible="{Binding IsLobbyVisible}" VerticalAlignment="Center" Spacing="20">
@@ -38,22 +41,23 @@
 
         <Grid IsVisible="{Binding IsGameVisible}">
             <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="100">
-        
-            <StackPanel Spacing="10">
-                <TextBlock Text="SCORE" 
-                           Foreground="White" 
-                           FontSize="26"
-                           HorizontalAlignment="Center"/>
-                <TextBlock Text="{Binding Score}" 
-                           Foreground="White" 
-                           FontSize="40" 
-                           HorizontalAlignment="Center"/>
-            </StackPanel>
-
+            <Border CornerRadius="5" Padding="16" HorizontalAlignment="Center" BorderBrush="White" BorderThickness="1">
+                <StackPanel Spacing="10">
+                    <TextBlock Text="SCORE" 
+                               Foreground="White" 
+                               FontSize="26"
+                               HorizontalAlignment="Center"/>
+                    <TextBlock Text="{Binding Score}" 
+                               Foreground="White" 
+                               FontSize="40" 
+                               HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Border>
             <Border BorderBrush="White" 
-                    BorderThickness="2 0 2 3" 
+                    BorderThickness="3 0 3 3" 
                     HorizontalAlignment="Center">
-                <Canvas Name="GameCanvas" Width="400" Height="500"/>
+                    
+                <Canvas Name="GameCanvas" Width="400" Height="480"/>
             </Border>
         
         </StackPanel>

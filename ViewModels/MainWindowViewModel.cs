@@ -27,19 +27,19 @@ namespace Tetris_avalonia.ViewModels
 
         public IReadOnlyList<IBrush> BlocksColor => new IBrush[]
         {
-            Brushes.Transparent,
+            Brushes.Gray,
             Brushes.Red,
             Brushes.Orange,
             Brushes.Yellow,
             Brushes.Green,
             Brushes.Blue,
             Brushes.Violet
-
         };
 
         public MainWindowViewModel()
         {
             CurrentBlock = _queue.GetAndUpdate();
+
             Score = 0;
         }
 
@@ -50,13 +50,14 @@ namespace Tetris_avalonia.ViewModels
             IsDifficultyVisible = true;
         }
 
-        // Метод для запуска игры
+        
         [RelayCommand]
         public void StartGame(string level)
         {
             // Тут можно настроить скорость падения в зависимости от 'level'
             IsDifficultyVisible = false;
             IsGameVisible = true;
+            
         }
 
         public void AddPoints(int points)
@@ -64,13 +65,36 @@ namespace Tetris_avalonia.ViewModels
             Score += points;
         }
 
+        public bool IsOverlapping()
+        {
+            foreach(var p in CurrentBlock.GetPositions())
+            {
+                if (p.Row >= 20 || p.Column >= 10 || p.Column < 0)
+                    return false;
+                if (Grid[p.Row, p.Column] != 0)
+                    return true;
+            }
+            return false;
+
+        }
+
+        public void PlaceBlock()
+        {
+            foreach(var i in CurrentBlock.GetPositions())
+            {
+                Grid[i.Row, i.Column] = CurrentBlock.ID;
+            }
+        }
+
         public void MoveDown()
         {
             CurrentBlock.Move(1, 0);
 
-            if(!BlockInside())
+
+            if(!BlockInside() || IsOverlapping())
             {
                 CurrentBlock.Move(-1, 0);
+                PlaceBlock();
             }
         }
 
@@ -83,5 +107,7 @@ namespace Tetris_avalonia.ViewModels
             }
             return true;
         }
+
+        
     }
 }

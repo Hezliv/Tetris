@@ -20,7 +20,6 @@ namespace Tetris_avalonia.Models
 
         public override int ID => 1;
 
-        protected override Position StartOffset => new Position(-1, 3); 
-        protected override Position[][] Tiles => tiles;
+        public override Position[][] Tiles => tiles;
     }
 }
