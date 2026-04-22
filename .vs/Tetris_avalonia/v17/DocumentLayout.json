@@ -11,16 +11,44 @@
       "RelativeMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|solutionrelative:viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|d:\\projects\\tetris_avalonia\\models\\gamegrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|solutionrelative:models\\gamegrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|d:\\projects\\tetris_avalonia\\models\\tetramino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|solutionrelative:models\\tetramino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|d:\\projects\\tetris_avalonia\\models\\tetraminot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|solutionrelative:models\\tetraminot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|d:\\projects\\tetris_avalonia\\models\\tetraminoj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|solutionrelative:models\\tetraminoj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|d:\\projects\\tetris_avalonia\\models\\tetraminoqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|solutionrelative:models\\tetraminoqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|d:\\projects\\tetris_avalonia\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|solutionrelative:app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|d:\\projects\\tetris_avalonia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|d:\\projects\\tetris_avalonia\\models\\tetraminol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|solutionrelative:models\\tetraminol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|d:\\projects\\tetris_avalonia\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|solutionrelative:views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|d:\\projects\\tetris_avalonia\\models\\tetraminoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|solutionrelative:models\\tetraminoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|d:\\projects\\tetris_avalonia\\models\\tetraminot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|solutionrelative:models\\tetraminot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|d:\\projects\\tetris_avalonia\\models\\tetraminoz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,24 +59,8 @@
       "RelativeMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|solutionrelative:models\\tetraminos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|d:\\projects\\tetris_avalonia\\models\\tetraminoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|solutionrelative:models\\tetraminoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|d:\\projects\\tetris_avalonia\\models\\tetraminoj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|solutionrelative:models\\tetraminoj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|d:\\projects\\tetris_avalonia\\models\\tetraminoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|solutionrelative:models\\tetraminoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|d:\\projects\\tetris_avalonia\\models\\tetraminoqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|solutionrelative:models\\tetraminoqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|d:\\projects\\tetris_avalonia\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|solutionrelative:views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17623E1A-F117-43B5-939A-436E602014BB}|Tetris_avalonia.csproj|d:\\projects\\tetris_avalonia\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
@@ -62,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
@@ -72,10 +84,36 @@
               "RelativeDocumentMoniker": "ViewModels\\MainWindowViewModel.cs",
               "ToolTip": "D:\\Projects\\Tetris_avalonia\\ViewModels\\MainWindowViewModel.cs",
               "RelativeToolTip": "ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAA9wFgAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA0AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T20:04:16.485Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameGrid.cs",
+              "DocumentMoniker": "D:\\Projects\\Tetris_avalonia\\Models\\GameGrid.cs",
+              "RelativeDocumentMoniker": "Models\\GameGrid.cs",
+              "ToolTip": "D:\\Projects\\Tetris_avalonia\\Models\\GameGrid.cs",
+              "RelativeToolTip": "Models\\GameGrid.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAASwCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T19:33:48.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\Tetris_avalonia\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Projects\\Tetris_avalonia\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T19:26:00.651Z",
               "EditorCaption": ""
             },
             {
@@ -95,55 +133,38 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{73068c07-fba1-453f-99ae-6edf972119b2}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TetraminoO.cs",
-              "DocumentMoniker": "D:\\Projects\\Tetris_avalonia\\Models\\TetraminoO.cs",
-              "RelativeDocumentMoniker": "Models\\TetraminoO.cs",
-              "ToolTip": "D:\\Projects\\Tetris_avalonia\\Models\\TetraminoO.cs",
-              "RelativeToolTip": "Models\\TetraminoO.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAnwA8AAAA0AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "D:\\Projects\\Tetris_avalonia\\Views\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "Views\\MainWindow.axaml.cs",
+              "ToolTip": "D:\\Projects\\Tetris_avalonia\\Views\\MainWindow.axaml.cs",
+              "RelativeToolTip": "Views\\MainWindow.axaml.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAswE8AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T17:35:18.548Z",
+              "WhenOpened": "2026-04-03T20:07:14.76Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "TetraminoS.cs",
-              "DocumentMoniker": "D:\\Projects\\Tetris_avalonia\\Models\\TetraminoS.cs",
-              "RelativeDocumentMoniker": "Models\\TetraminoS.cs",
-              "ToolTip": "D:\\Projects\\Tetris_avalonia\\Models\\TetraminoS.cs",
-              "RelativeToolTip": "Models\\TetraminoS.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAArwBEAAAAkAAAAAAAAAA==",
+              "Title": "App.axaml.cs",
+              "DocumentMoniker": "D:\\Projects\\Tetris_avalonia\\App.axaml.cs",
+              "RelativeDocumentMoniker": "App.axaml.cs",
+              "ToolTip": "D:\\Projects\\Tetris_avalonia\\App.axaml.cs",
+              "RelativeToolTip": "App.axaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T17:35:30.68Z",
+              "WhenOpened": "2026-04-22T18:59:44.803Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TetraminoZ.cs",
-              "DocumentMoniker": "D:\\Projects\\Tetris_avalonia\\Models\\TetraminoZ.cs",
-              "RelativeDocumentMoniker": "Models\\TetraminoZ.cs",
-              "ToolTip": "D:\\Projects\\Tetris_avalonia\\Models\\TetraminoZ.cs",
-              "RelativeToolTip": "Models\\TetraminoZ.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAArwBIAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T20:18:40.706Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "TetraminoL.cs",
               "DocumentMoniker": "D:\\Projects\\Tetris_avalonia\\Models\\TetraminoL.cs",
               "RelativeDocumentMoniker": "Models\\TetraminoL.cs",
@@ -157,51 +178,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TetraminoT.cs",
-              "DocumentMoniker": "D:\\Projects\\Tetris_avalonia\\Models\\TetraminoT.cs",
-              "RelativeDocumentMoniker": "Models\\TetraminoT.cs",
-              "ToolTip": "D:\\Projects\\Tetris_avalonia\\Models\\TetraminoT.cs",
-              "RelativeToolTip": "Models\\TetraminoT.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAvwBEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T17:35:36.687Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.axaml.cs",
-              "DocumentMoniker": "D:\\Projects\\Tetris_avalonia\\Views\\MainWindow.axaml.cs",
-              "RelativeDocumentMoniker": "Views\\MainWindow.axaml.cs",
-              "ToolTip": "D:\\Projects\\Tetris_avalonia\\Views\\MainWindow.axaml.cs",
-              "RelativeToolTip": "Views\\MainWindow.axaml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA5wBwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T20:07:14.76Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Tetramino.cs",
               "DocumentMoniker": "D:\\Projects\\Tetris_avalonia\\Models\\Tetramino.cs",
               "RelativeDocumentMoniker": "Models\\Tetramino.cs",
               "ToolTip": "D:\\Projects\\Tetris_avalonia\\Models\\Tetramino.cs",
               "RelativeToolTip": "Models\\Tetramino.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAIwCIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA9wBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-03T20:03:32.853Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
+              "Title": "TetraminoQueue.cs",
+              "DocumentMoniker": "D:\\Projects\\Tetris_avalonia\\Models\\TetraminoQueue.cs",
+              "RelativeDocumentMoniker": "Models\\TetraminoQueue.cs",
+              "ToolTip": "D:\\Projects\\Tetris_avalonia\\Models\\TetraminoQueue.cs",
+              "RelativeToolTip": "Models\\TetraminoQueue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T15:37:10.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "TetraminoJ.cs",
               "DocumentMoniker": "D:\\Projects\\Tetris_avalonia\\Models\\TetraminoJ.cs",
               "RelativeDocumentMoniker": "Models\\TetraminoJ.cs",
               "ToolTip": "D:\\Projects\\Tetris_avalonia\\Models\\TetraminoJ.cs",
               "RelativeToolTip": "Models\\TetraminoJ.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAArwBEAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-06T17:35:05.499Z",
               "EditorCaption": ""
@@ -209,32 +217,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "TetraminoI.cs",
-              "DocumentMoniker": "D:\\Projects\\Tetris_avalonia\\Models\\TetraminoI.cs",
-              "RelativeDocumentMoniker": "Models\\TetraminoI.cs",
-              "ToolTip": "D:\\Projects\\Tetris_avalonia\\Models\\TetraminoI.cs",
-              "RelativeToolTip": "Models\\TetraminoI.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T20:13:43.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TetraminoQueue.cs",
-              "DocumentMoniker": "D:\\Projects\\Tetris_avalonia\\Models\\TetraminoQueue.cs",
-              "RelativeDocumentMoniker": "Models\\TetraminoQueue.cs",
-              "ToolTip": "D:\\Projects\\Tetris_avalonia\\Models\\TetraminoQueue.cs",
-              "RelativeToolTip": "Models\\TetraminoQueue.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAIwCYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T15:37:10.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "MainWindow.axaml",
               "DocumentMoniker": "D:\\Projects\\Tetris_avalonia\\Views\\MainWindow.axaml",
               "RelativeDocumentMoniker": "Views\\MainWindow.axaml",
@@ -246,7 +228,72 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TetraminoO.cs",
+              "DocumentMoniker": "D:\\Projects\\Tetris_avalonia\\Models\\TetraminoO.cs",
+              "RelativeDocumentMoniker": "Models\\TetraminoO.cs",
+              "ToolTip": "D:\\Projects\\Tetris_avalonia\\Models\\TetraminoO.cs",
+              "RelativeToolTip": "Models\\TetraminoO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAnwA8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T17:35:18.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{73068c07-fba1-453f-99ae-6edf972119b2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TetraminoT.cs",
+              "DocumentMoniker": "D:\\Projects\\Tetris_avalonia\\Models\\TetraminoT.cs",
+              "RelativeDocumentMoniker": "Models\\TetraminoT.cs",
+              "ToolTip": "D:\\Projects\\Tetris_avalonia\\Models\\TetraminoT.cs",
+              "RelativeToolTip": "Models\\TetraminoT.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAvwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T17:35:36.687Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "TetraminoZ.cs",
+              "DocumentMoniker": "D:\\Projects\\Tetris_avalonia\\Models\\TetraminoZ.cs",
+              "RelativeDocumentMoniker": "Models\\TetraminoZ.cs",
+              "ToolTip": "D:\\Projects\\Tetris_avalonia\\Models\\TetraminoZ.cs",
+              "RelativeToolTip": "Models\\TetraminoZ.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAArwBIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T20:18:40.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TetraminoS.cs",
+              "DocumentMoniker": "D:\\Projects\\Tetris_avalonia\\Models\\TetraminoS.cs",
+              "RelativeDocumentMoniker": "Models\\TetraminoS.cs",
+              "ToolTip": "D:\\Projects\\Tetris_avalonia\\Models\\TetraminoS.cs",
+              "RelativeToolTip": "Models\\TetraminoS.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAArwBEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T17:35:30.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TetraminoI.cs",
+              "DocumentMoniker": "D:\\Projects\\Tetris_avalonia\\Models\\TetraminoI.cs",
+              "RelativeDocumentMoniker": "Models\\TetraminoI.cs",
+              "ToolTip": "D:\\Projects\\Tetris_avalonia\\Models\\TetraminoI.cs",
+              "RelativeToolTip": "Models\\TetraminoI.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T20:13:43.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "App.axaml",
               "DocumentMoniker": "D:\\Projects\\Tetris_avalonia\\App.axaml",
               "RelativeDocumentMoniker": "App.axaml",

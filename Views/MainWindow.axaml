@@ -15,7 +15,16 @@
         FontFamily="Press Start 2P"> <Design.DataContext>
         <vm:MainWindowViewModel/>  
     </Design.DataContext>
-   
+   <Window.Styles>
+	   <Style Selector="Button:pointerover /template/ ContentPresenter">
+		   <Setter Property="FontWeight" Value="Bold"/>
+           <Setter Property="FontSize" Value="21"/>
+           <Setter Property="Foreground" Value="White"/>
+           <Setter Property="Background" Value="#000"/>
+           <Setter Property="RenderTransform" Value="scale(1.1)"/>
+       </Style>
+		
+   </Window.Styles>
    
     <Grid>
        
@@ -41,16 +50,18 @@
 
         <Grid IsVisible="{Binding IsGameVisible}">
             <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="100">
-            <Border CornerRadius="5" Padding="16" HorizontalAlignment="Center" BorderBrush="White" BorderThickness="1">
+            <Border CornerRadius="2" Padding="16" HorizontalAlignment="Center" BorderBrush="White" BorderThickness="2">
                 <StackPanel Spacing="10">
                     <TextBlock Text="SCORE" 
                                Foreground="White" 
                                FontSize="26"
-                               HorizontalAlignment="Center"/>
+                               HorizontalAlignment="Center"
+                               FontWeight="Bold"/>
                     <TextBlock Text="{Binding Score}" 
                                Foreground="White" 
                                FontSize="40" 
-                               HorizontalAlignment="Center"/>
+                               HorizontalAlignment="Center"
+                               FontWeight="Bold"/>
                 </StackPanel>
             </Border>
             <Border BorderBrush="White" 

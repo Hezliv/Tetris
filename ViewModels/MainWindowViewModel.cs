@@ -11,7 +11,7 @@ namespace Tetris_avalonia.ViewModels
 {
     public partial class MainWindowViewModel : ViewModelBase
     {
-        private readonly GameGrid _grid = new GameGrid(20, 10);
+        private readonly GameGrid _grid = new GameGrid(16, 10);
         private readonly TetraminoQueue _queue = new TetraminoQueue();
 
         [ObservableProperty]
@@ -39,7 +39,7 @@ namespace Tetris_avalonia.ViewModels
         public MainWindowViewModel()
         {
             CurrentBlock = _queue.GetAndUpdate();
-
+            
             Score = 0;
         }
 
@@ -67,12 +67,24 @@ namespace Tetris_avalonia.ViewModels
 
         public bool IsOverlapping()
         {
-            foreach(var p in CurrentBlock.GetPositions())
+            foreach (var p in CurrentBlock.GetPositions())
             {
-                if (p.Row >= 20 || p.Column >= 10 || p.Column < 0)
-                    return false;
+                // 1. Пропускаем те части блока, которые еще ПОВЕРХУ поля (Row < 0)
+                // Чтобы не было ошибки при спавне
+                if (p.Row < 0) continue;
+
+                // 2. Если блок ушел ниже дна (Row >= 20) — это столкновение
+                if (p.Row >= Grid.Rows) return true;
+
+                // 3. Если блок ушел за стенки — это тоже столкновение
+                if (p.Column < 0 || p.Column >= Grid.Columns) return true;
+
+                // 4. ГЛАВНОЕ: Проверяем, не занята ли эта клетка в сетке Grid
+                // Если там число НЕ 0, значит там уже лежит другой блок
                 if (Grid[p.Row, p.Column] != 0)
+                {
                     return true;
+                }
             }
             return false;
 
@@ -88,21 +100,36 @@ namespace Tetris_avalonia.ViewModels
 
         public void MoveDown()
         {
+            if (!IsGameVisible) return; // Чтобы не падало в меню
+
             CurrentBlock.Move(1, 0);
 
-
-            if(!BlockInside() || IsOverlapping())
+            if (!BlockInside() || IsOverlapping())
             {
                 CurrentBlock.Move(-1, 0);
                 PlaceBlock();
+                // Спавним новый блок
+                CurrentBlock = _queue.GetAndUpdate();
+                CurrentBlock.Reset();
+
+                if (IsOverlapping())
+                {
+                    // Если новый блок сразу на чем-то лежит — это конец игры
+                    IsGameVisible = false;
+                    IsLobbyVisible = true;
+                }
             }
+
+            // ВАЖНО: Добавь эту строчку в конец метода!
+            // Она заставит UI обновиться.
+            OnPropertyChanged(nameof(CurrentBlock));
         }
 
         private bool BlockInside()
         {
             foreach(Position p in CurrentBlock.GetPositions())
             {
-                if (!_grid.IsInside(p) || !_grid.IsEmpty(p))
+                if (!_grid.IsInside(p))
                     return false;
             }
             return true;

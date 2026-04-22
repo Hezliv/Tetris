@@ -27,13 +27,13 @@ namespace Tetris_avalonia.Views
         private void OnGameTick(object? sender, EventArgs e)
         {
             
-            ClearCanvas();
             viewModel.MoveDown();
             Render();
         }
 
         private void Render()
         {
+            ClearCanvas();
             DrawGrid(viewModel.Grid);
 
             DrawTetramino(viewModel.CurrentBlock, viewModel.CurrentBlock.Offset);
@@ -76,7 +76,7 @@ namespace Tetris_avalonia.Views
             {
                 for(int j = 0; j < grid.Columns; j++)
                 {
-                    if (grid[i, j] != 0)
+                    if (grid[i, j] > 0)
                         DrawTile(i, j, grid[i, j]);
                 }
             }

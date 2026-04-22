@@ -26,12 +26,12 @@ namespace Tetris_avalonia.Models
         public abstract int ID { get; }
 
         private int _rotationState;
-        private Position _offset;
-        public Position Offset { private set; get; }
+        
+        public Position Offset { set; get; }
 
         public Tetramino()
         {
-            _offset = new Position(StartOffset.Row, StartOffset.Column);
+            Offset = new Position(StartOffset.Row, StartOffset.Column);
 
         }
 
@@ -47,29 +47,23 @@ namespace Tetris_avalonia.Models
                 _rotationState--;
         }
 
+
         public void Move(int row, int column)
         {
-            _offset.Row += row;
-            _offset.Column += column;
+            // Меняем само свойство Offset
+            Offset = new Position(Offset.Row + row, Offset.Column + column);
         }
 
         public void Reset()
         {
             _rotationState = 0;
-            _offset.Row = StartOffset.Row;
-            _offset.Column = StartOffset.Column;
+            Offset = new Position(StartOffset.Row, StartOffset.Column);
         }
 
-        public void ResetPosition(int row, int column)
-        {
-            _offset.Row = row;
-            _offset.Column = column; 
-        }
-        
         public IEnumerable<Position> GetPositions()
         {
-            foreach(Position p in Tiles[_rotationState]) 
-                yield return new Position(p.Row + _offset.Row, p.Column + _offset.Column);  
+            foreach (Position p in Tiles[_rotationState])
+                yield return new Position(p.Row + Offset.Row, p.Column + Offset.Column);
         }
     }
 }
